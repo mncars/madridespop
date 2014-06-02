@@ -1,8 +1,9 @@
 ---
 layout: default
-title: This is just a placeholder post
 ---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
 
-<h1>{{ post.title }}</h1>
-
+<div class="post">
 {{ content }}
+</div>

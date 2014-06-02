@@ -1,27 +1,13 @@
 ---
 layout: default
-title: "'Allo, 'Allo!"
+title: Your New Jekyll Site
 ---
 
-        <div class="container">
-            <div class="hero-unit">
-                <h1>{{ page.title }}</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>Jekyll</li>
-                    <li>HTML5 Boilerplate</li>
-                    <li>Twitter Bootstrap <i class="icon-glass"></i></li>
-                </ul>
-                <p>installed.</p>
-                <h3>Enjoy coding! - Yeoman</h3>
-            </div>
-        </div>
-
-
-{% for post in site.posts %}
-
-    {{ post.date | date: "%B %e, %Y" }}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-
-{% endfor %}
-
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
