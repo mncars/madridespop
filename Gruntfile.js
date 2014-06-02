@@ -108,7 +108,7 @@ module.exports = function (grunt) {
           compress: true
         },
         files: {
-          'app/css/style.css': '<%= yeoman.app %>/_less/style.less'
+          'app/css/main.css': '<%= yeoman.app %>/_less/main.less'
         }
       },
       server: {
@@ -117,7 +117,7 @@ module.exports = function (grunt) {
           compress: false
         },
         files: {
-          'app/css/style.css': '<%= yeoman.app %>/_less/style.less'
+          'app/css/main.css': '<%= yeoman.app %>/_less/main.less'
         }
       }
     },
