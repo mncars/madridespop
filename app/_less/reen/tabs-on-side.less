@@ -1,0 +1,71 @@
+.tabs-side .etabs {
+    float: left;
+    width: 20%;
+    padding: 0;
+    margin: 0 -1px 0 0;
+}
+.tabs-side .tab {
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+.tabs-side .tab a {
+    display: block;
+    background: #F5F7FA;
+    color: #506A85;
+    font-size: 14px;
+    line-height: 130%;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #E6E9ED;
+    border-right-color: #CED7E0;
+    border-bottom: none;
+    overflow: hidden;
+}
+.tabs-side .tab:first-child a {
+    border-top-left-radius: 3px;
+}
+.tabs-side .tab:last-child a {
+    border-bottom: 1px solid #E6E9ED;
+    border-bottom-left-radius: 3px;
+}
+.tabs-side .tab a:hover {
+    background: #1ABB9C;
+    color: #FFF;
+    border-color: #1ABB9C;
+}
+.tabs-side .tab:hover,
+.tabs-side .tab.active {
+    z-index: 2;
+}
+.tabs-side .tab.active a {
+    background: #FFF !important;
+    color: #1ABB9C;
+    border-color: #CED7E0 !important;
+    border-right-color: #FFF !important;
+}
+.tabs-side .tab.active + .tab a {
+    border-top-color: #CED7E0;
+}
+.tabs-side .tab.active + .tab a:hover {
+    border-top-color: #1ABB9C;
+}
+.tabs-side .tab a div {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 200;
+    margin: -10px 0 5px;
+}
+.tabs-side.tab-container .panel-container {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-left: 70px;
+    border-left: 1px solid #CED7E0;
+}
+.tabs-side.tab-container .panel-container p {
+    margin: 0;
+    padding-bottom: 20px;
+}

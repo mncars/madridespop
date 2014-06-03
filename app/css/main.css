@@ -5,9 +5,6 @@ Version: 		1.0.1
 Author: 		fuviz
 Demo URI: 		http://demo.fuviz.com/reen
 */
-/*===================================================================================*/
-/*	GENERAL
-/*===================================================================================*/
 *,
 *:before,
 *:after {
@@ -1291,9 +1288,6 @@ aside .thumb figure {
 .thumbs.gap-lg .thumb {
   padding: 0 0 30px 30px;
 }
-/*===================================================================================*/
-/*	HEADER
-/*===================================================================================*/
 .navbar .container {
   display: table;
   padding: 0;
@@ -1480,9 +1474,6 @@ aside .thumb figure {
   padding: 0;
   margin: 0;
 }
-/*===================================================================================*/
-/*	MEGA MENU
-/*===================================================================================*/
 .yamm .nav,
 .yamm .dropup,
 .yamm .dropdown,
@@ -1558,9 +1549,6 @@ aside .thumb figure {
   left: 0;
   right: 0;
 }
-/*===================================================================================*/
-/*	BUTTONS
-/*===================================================================================*/
 #buttons .btn {
   margin: 5px 3px;
 }
@@ -1775,7 +1763,7 @@ aside .thumb figure {
 .btn-share-md:hover i:after,
 .btn-share-sm:hover i:after,
 .btn-share-xs:hover i:after {
-	height: 100%;
+    height: 100%;
 }*/
 .btn-share-lg:hover .icon-s-facebook:after,
 .btn-share-md:hover .icon-s-facebook:after,
@@ -1872,9 +1860,6 @@ p .btn {
 .txt-btn:hover:after {
   margin-left: 12px;
 }
-/*===================================================================================*/
-/*	SOCIAL ICONS
-/*===================================================================================*/
 .social {
   padding: 0;
   margin: 0;
@@ -1949,9 +1934,6 @@ p .btn {
   background: #EA4C89;
   background: #EB6397;
 }
-/*===================================================================================*/
-/*	TABS ON SIDE
-/*===================================================================================*/
 .tabs-side .etabs {
   float: left;
   width: 20%;
@@ -2023,9 +2005,6 @@ p .btn {
   margin: 0;
   padding-bottom: 20px;
 }
-/*===================================================================================*/
-/*	TABS ON TOP
-/*===================================================================================*/
 .tabs-top .etabs {
   padding: 0;
   margin: 0;
@@ -2088,9 +2067,6 @@ p .btn {
   margin: 0;
   padding-bottom: 20px;
 }
-/*===================================================================================*/
-/*	TABS CIRCLED ON TOP
-/*===================================================================================*/
 .tabs-circle-top .etabs {
   position: relative;
   padding: 0;
@@ -2167,9 +2143,6 @@ p .btn {
   margin: 0;
   padding-bottom: 20px;
 }
-/*===================================================================================*/
-/*	TABS 2-BIG ON TOP
-/*===================================================================================*/
 .tabs-2-big-top .etabs {
   position: relative;
   padding: 0;
@@ -2253,9 +2226,6 @@ p .btn {
   margin: 0;
   padding-bottom: 20px;
 }
-/*===================================================================================*/
-/*	TESTIMONIALS / QUOTES
-/*===================================================================================*/
 .format-quote {
   position: relative;
 }
@@ -2317,9 +2287,6 @@ blockquote:before {
 .format-quote .meta a:hover {
   color: #506A85;
 }
-/*===================================================================================*/
-/*	ACCORDION / TOGGLE
-/*===================================================================================*/
 .panel-group {
   margin-bottom: 0;
 }
@@ -2509,9 +2476,6 @@ blockquote:before {
 .light-bg .blank.panel-group .bordered {
   background: #FFF;
 }
-/*===================================================================================*/
-/*	PORTFOLIO
-/*===================================================================================*/
 .items {
   list-style: none;
   margin: 0;
@@ -2788,9 +2752,6 @@ blockquote:before {
 .post-content .isotope figure {
   margin: auto;
 }
-/*===================================================================================*/
-/*	OVERLAY
-/*===================================================================================*/
 .icon-overlay {
   display: block;
   position: relative;
@@ -2849,44 +2810,6 @@ blockquote:before {
 .icon-overlay.icn-link a .icn-more:before {
   content: '\2b';
 }
-/*===================================================================================*/
-/*	PORTFOLIO POST
-/*===================================================================================*/
-.item-details {
-  list-style: none;
-  font-size: 16px;
-  line-height: 140%;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-.item-details li + li {
-  margin-top: 6px;
-}
-.item-details li:before {
-  content: "";
-  font-family: "fontello";
-  color: #506A85;
-  margin-right: 10px;
-}
-.item-details li.date:before {
-  content: "\e82c";
-}
-.item-details li.categories:before {
-  content: "\e70d";
-}
-.item-details li.client:before {
-  content: "\f464";
-}
-.item-details li.url:before {
-  content: "\f30e";
-}
-.text-center .item-details li {
-  display: inline-block;
-  margin: 0 15px 6px;
-}
-/*===================================================================================*/
-/*	OWL CAROUSEL
-/*===================================================================================*/
 .owl-carousel {
   text-align: center;
   cursor: default;
@@ -3290,9 +3213,6 @@ blockquote:before {
   min-height: inherit;
   background: none;
 }
-/*===================================================================================*/
-/*	PRICING TABLES
-/*===================================================================================*/
 .pricing .plan {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -3369,9 +3289,6 @@ blockquote:before {
 .pricing.col-4 .plan .features {
   padding: 20px 30px;
 }
-/*===================================================================================*/
-/*	FORMS
-/*===================================================================================*/
 .forms {
   position: relative;
   padding: 0;
@@ -3608,9 +3525,6 @@ input:focus::-moz-placeholder {
 input:focus:-ms-input-placeholder {
   color: transparent !important;
 }
-/*===================================================================================*/
-/*	BLOG
-/*===================================================================================*/
 .blog.no-sidebar .post,
 .blog.no-sidebar #comments,
 .blog.no-sidebar .pagination,
@@ -3655,11 +3569,11 @@ input:focus:-ms-input-placeholder {
   margin-right: 0;
 }
 /*.meta li.categories:before {
-	content: "\e70d";
-	-webkit-transition: all 200ms ease-out;
-	   -moz-transition: all 200ms ease-out;
-		 -o-transition: all 200ms ease-out;
-			transition: all 200ms ease-out;
+    content: "\e70d";
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
 }*/
 .meta li.categories:hover:before {
   color: #1ABB9C;
@@ -3932,9 +3846,6 @@ input:focus:-ms-input-placeholder {
 .post.format-link .post-title {
   color: #FFF;
 }
-/*===================================================================================*/
-/*	AUTHOR
-/*===================================================================================*/
 .author {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -3990,9 +3901,6 @@ input:focus:-ms-input-placeholder {
   float: left;
   display: inline-block;
 }
-/*===================================================================================*/
-/*	SIDEBAR
-/*===================================================================================*/
 .sidebar {
   padding-left: 25px !important;
 }
@@ -4058,9 +3966,6 @@ input:focus:-ms-input-placeholder {
 .sidenav li a:hover:after {
   opacity: 1;
 }
-/*===================================================================================*/
-/*	TOOLTIPS
-/*===================================================================================*/
 .tooltip-inner {
   color: #fff;
   background-color: #1ABB9C;
@@ -4082,9 +3987,6 @@ input:focus:-ms-input-placeholder {
 .tooltip.bottom-right .tooltip-arrow {
   border-bottom-color: #1ABB9C;
 }
-/*===================================================================================*/
-/*	PAGINATION
-/*===================================================================================*/
 .pagination {
   display: block;
   border-radius: 0;
@@ -4133,9 +4035,6 @@ input:focus:-ms-input-placeholder {
 .pagination > li:last-child > a {
   border-radius: 3px;
 }
-/*===================================================================================*/
-/*	COMMENTS
-/*===================================================================================*/
 #comments {
   position: relative;
 }
@@ -4222,9 +4121,6 @@ input:focus:-ms-input-placeholder {
 .blog.no-sidebar #comments .meta {
   text-align: left;
 }
-/*===================================================================================*/
-/*	GO TO TOP / SCROLL UP
-/*===================================================================================*/
 #scrollUp {
   bottom: 20px;
   right: 20px;
@@ -4242,9 +4138,6 @@ input:focus:-ms-input-placeholder {
   color: #1ABB9C;
   opacity: 1;
 }
-/*===================================================================================*/
-/*	FEATURES / STYLES
-/*===================================================================================*/
 .font-icons {
   list-style: none;
   margin: 0;
@@ -4295,9 +4188,6 @@ input:focus:-ms-input-placeholder {
 .table-bordered > tfoot > tr > td {
   border-color: #E6E9ED;
 }
-/*===================================================================================*/
-/*	RESPONSIVE
-/*===================================================================================*/
 @media (min-width: 1200px) {
   .container {
     padding-right: 0;
@@ -4445,9 +4335,9 @@ input:focus:-ms-input-placeholder {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /*	br {
-		display: none;
-	}*/
+  /*  br {
+        display: none;
+    }*/
   #team .inner-left {
     padding-left: 40px;
   }
@@ -5004,12 +4894,12 @@ input:focus:-ms-input-placeholder {
     margin-right: -15px;
   }
   /*.owl-controls {
-		display: inline;
-	}
-	
-	.owl-pagination {
-		top: 0 !important;
-	}*/
+        display: inline;
+    }
+    
+    .owl-pagination {
+        top: 0 !important;
+    }*/
   .last-bottom {
     padding-bottom: 20px !important;
   }
@@ -5568,15 +5458,6 @@ input:focus:-ms-input-placeholder {
     height: 480px;
   }
 }
-/*===================================================================================*/
-/*	DEMO ONLY
-/*===================================================================================*/
-a.changecolor {
-  cursor: pointer;
-}
-/*===================================================================================*/
-/*	SKROLLR ANIMATIONS
-/*===================================================================================*/
 .navbar .navbar-collapse {
   -skrollr-animation-name: shrink-header;
 }
