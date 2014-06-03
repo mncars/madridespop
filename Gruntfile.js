@@ -107,18 +107,28 @@ module.exports = function (grunt) {
           yuicompress: true,
           compress: true
         },
-        files: {
-          'app/css/main.css': '<%= yeoman.app %>/_less/main.less'
-        }
+        files: [{
+            expand: true,
+            cwd: '<%= yeoman.app %>/_less',
+            src: ['*.less'],
+            dest: 'app/css/',
+            ext: '.css'
+          }
+        ]
       },
       server: {
         options: {
           yuicompress: false,
           compress: false
         },
-        files: {
-          'app/css/main.css': '<%= yeoman.app %>/_less/main.less'
-        }
+        files: [{
+            expand: true,
+            cwd: '<%= yeoman.app %>/_less',
+            src: ['*.less'],
+            dest: 'app/css/',
+            ext: '.css'
+          }
+        ]
       }
     },
     autoprefixer: {
