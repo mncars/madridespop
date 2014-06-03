@@ -1,0 +1,61 @@
+.format-quote {
+    position: relative;
+}
+.format-quote:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url("../images/art/pattern-background01.jpg");
+    opacity: .05;
+}
+#testimonials #owl-testimonials {
+    margin-top: 10px;
+}
+blockquote {
+    position: relative;
+}
+#testimonials #owl-testimonials:before,
+blockquote:before {
+    display: block;
+    position: relative;
+    font-family: 'fontello';
+    content: '\275e';
+    font-size: 40px;
+    line-height: 100%;
+}
+#testimonials #owl-testimonials:before {
+    top: -10px;
+    opacity: .3;
+}
+#testimonials #owl-testimonials blockquote:before {
+    display: none;
+}
+blockquote:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.post.format-quote {
+    background-color: #1ABB9C;
+}
+.format-quote .meta,
+.format-quote blockquote,
+.format-quote blockquote footer,
+.format-quote blockquote small,
+.format-quote blockquote .small {
+    color: #FFF;
+}
+.format-quote blockquote footer:before,
+.format-quote blockquote small:before,
+.format-quote blockquote .small:before,
+.format-quote blockquote footer:after,
+.format-quote blockquote small:after,
+.format-quote blockquote .small:after {
+    background-color: #FFF;
+}
+.format-quote .meta a:hover {
+    color: #506A85;
+}
