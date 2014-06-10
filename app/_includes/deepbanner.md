@@ -1,23 +1,30 @@
-<section>
-  <div class="container inner-top-sm">
+<section id="deepbanner">
+  <div class="container">
     <div class="row">
       <div class="col-md-10 center-block text-center">
-        <header>
+        <header class="inner-top-sm inner-bottom-xs">
           <h1>Este verano #MadridEsPop</h1>
-          <p>Las exposiciones <strong>Mitos del Pop</strong> del Museo Thyssen y <strong>Richard Hamilton</strong> en el Museo Reina Sofía convierten a Madrid en <a href="">epicentro del Pop Art</a>.</p>
+          <p>Las exposiciones <strong>Mitos del Pop</strong> del Museo Thyssen y <strong>Richard Hamilton</strong> en el Museo Reina Sofía convierten a Madrid en <a href="#about">epicentro del Pop Art</a>.</p>
         </header>
       </div>
     </div>
-    <div class="row inner-top-xs">
-      <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-10 center-block">
+        <div class="alert dark-bg text-center">
+          <strong>Aviso:</strong> La exposición de Richard Hamilton permanecerá cerrada los días 9 y 10 de Octubre.
+        </div>    
+      </div>
+    </div>
+    <div class="row inner-top-xs inner-bottom-xs">
+      <div class="col-md-6 col-md-offset-1">
         <div class="row">
-          <div class="col-md-6 inner-xs">
+          <div class="col-md-6">
             <h2 class="single-block">Mitos del Pop</h2>
             <p>10 de junio – 14 de septiembre</p>
             <p><img src="assets/images/img.logo-museo-thyssen.png" alt="MUSEO THYSSEN-BORNEMISZA" class="img-responsive"></p>
             <p class="text-small">Sala de exposiciones. Planta baja</p>
           </div>
-          <div class="col-md-6 inner-xs">
+          <div class="col-md-6">
             <h2 class="single-block">Richard Hamilton</h2>
             <p>27 de junio – 13 de octubre </p>
             <p><img src="assets/images/img.logo-museo-reina-sofia.png" class="img-responsive" alt="MUSEO NACIONAL CENTRO DE ARTE REINA SOFÍA"></p>
@@ -25,8 +32,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 inner-left-xs">
-        <figure class="inner-bottom-xs"><img src="assets/images/img.pop.png" alt="POP" class="img-responsive"></figure>
+      <div class="col-md-4 inner-left-xs">
+        <figure><img src="assets/images/img.pop.png" alt="POP" class="img-responsive"></figure>
       </div>
     </div>
   </div>

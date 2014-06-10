@@ -9,29 +9,97 @@ Demo URI: 		http://demo.fuviz.com/reen
 */
 
 @import "reen/general.less";
-@import "reen/header.less";
-@import "reen/mega-menu.less";
+//@import "reen/header.less";
+//@import "reen/mega-menu.less";
 @import "reen/buttons.less";
-@import "reen/social-icons.less";
-@import "reen/tabs-on-side.less";
-@import "reen/tabs-on-top.less";
-@import "reen/tabs-circled-on-top.less";
-@import "reen/tabs-2-big-top.less";
-@import "reen/testimonials-quotes.less";
-@import "reen/accordion-toggle.less";
-@import "reen/portfolio.less";
-@import "reen/overlay.less";
+//@import "reen/social-icons.less";
+//@import "reen/tabs-on-side.less";
+//@import "reen/tabs-on-top.less";
+//@import "reen/tabs-circled-on-top.less";
+//@import "reen/tabs-2-big-top.less";
+//@import "reen/testimonials-quotes.less";
+//@import "reen/accordion-toggle.less";
+//@import "reen/portfolio.less";
+//@import "reen/overlay.less";
 @import "reen/owl-carousel.less";
-@import "reen/pricing-tables.less";
-@import "reen/forms.less";
-@import "reen/blog.less";
-@import "reen/author.less";
-@import "reen/sidebar.less";
-@import "reen/tooltips.less";
-@import "reen/pagination.less";
-@import "reen/comments.less";
+//@import "reen/pricing-tables.less";
+//@import "reen/forms.less";
+//@import "reen/blog.less";
+//@import "reen/author.less";
+//@import "reen/sidebar.less";
+//@import "reen/tooltips.less";
+//@import "reen/pagination.less";
+//@import "reen/comments.less";
 @import "reen/go-to-top-scroll-up.less";
-@import "reen/features-styles.less";
+//@import "reen/features-styles.less";
 @import "reen/responsive.less";
 // @import "reen/demo-only.less";
-@import "reen/skrollr-animations";
+// @import "reen/skrollr-animations";
+
+
+// My styles
+#deepbanner{
+	h1{
+		font-size: 60px;
+	}
+}
+.nav-pills{
+	margin-top: 10px;
+	>li{
+		&.active{
+			> a{
+      	background-color: darken(@body-bg, 7%);
+      	&:hover,
+      	&:active{
+      		background-color: darken(@body-bg, 7%);
+      	}
+      }
+    }
+		> a{
+			padding: 0px 10px 1px 12px;
+			font-size: @font-size-small - 3;
+			border-color: transparent;
+		}
+	}
+}
+
+.alert{
+	margin-top: 0;
+}
+
+#offer{
+	.single-block{
+		margin-bottom: 5px;
+		position: relative;
+		.abono-conjunto{
+			width: 113px;
+			height: 111px;
+			padding-top: 30px;
+			position: absolute;
+			top: -60px;
+			bottom: -20px;
+			font-size: 20px;
+			line-height: .9;
+			background: url(../assets/images/bk.bocadillo.png) 0 0 no-repeat;
+			color: @gray-darker;
+		}
+	}
+	p{
+		color: @gray-light;
+	}
+	a{
+		color: @gray-lighter;
+		&:hover,
+		&:active{
+			color: #fff;
+		}
+	}
+	.btn{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+.footer-bottom p {
+    padding-top: 20px;
+}

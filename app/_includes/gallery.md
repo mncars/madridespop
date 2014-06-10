@@ -1,7 +1,7 @@
 <section class="dark-bg">
-  <div class="container inner-sm">
+  <div class="container inner-sm animate">
     <header>
-      <h1 class="text-center">#MadridEsPop en imágenes</h1>
+      <h1 class="text-center">Descubre #MadridEsPop</h1>
     </header>
     <div class="row">
       <div id="owl-latest-works" class="owl-carousel owl-item-gap">
