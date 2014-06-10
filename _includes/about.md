@@ -1,5 +1,5 @@
-<section class="tint-bg">
-  <div class="container inner-sm">
+<section id="about" class="tint-bg">
+  <div class="container inner-sm animate">
     <div class="row">
       <div class="col-md-8 col-sm-9">
         <header>
