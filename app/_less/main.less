@@ -38,11 +38,18 @@ Demo URI: 		http://demo.fuviz.com/reen
 
 
 // My styles
-#deepbanner{
-	h1{
-		font-size: 60px;
+h1 {
+	@media (max-width: @screen-xs-max) {
+  	font-size: 36px; // responsive.less
 	}
 }
+
+header p{
+	@media (max-width: @screen-xs-max) {
+		font-size: @font-size-large - 6; // responsive.less
+	}
+}
+
 .nav-pills{
 	margin-top: 10px;
 	>li{
@@ -67,21 +74,48 @@ Demo URI: 		http://demo.fuviz.com/reen
 	margin-top: 0;
 }
 
+.col-xxs-full{
+	@media (max-width: (@screen-xs-min - 1)) {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.exhibition{
+	@media (max-width: @screen-xs-max) {
+		font-size: @font-size-base - 1;
+	}
+	.text-small{
+		@media (max-width: @screen-xs-max) {
+			font-size: @font-size-small - 1;
+		}
+	}
+}
+
 #offer{
 	.single-block{
 		margin-bottom: 5px;
+		padding-top: 50px;
 		position: relative;
+		@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+			font-size: 44px;
+		}
 		.abono-conjunto{
 			width: 113px;
 			height: 111px;
 			padding-top: 30px;
 			position: absolute;
-			top: -60px;
-			bottom: -20px;
+			top: -55px;
+			right: 0;
 			font-size: 20px;
 			line-height: .9;
 			background: url(../assets/images/bk.bocadillo.png) 0 0 no-repeat;
 			color: @gray-darker;
+			@media (min-width: @screen-xs-min) {
+				top: -50px;
+				bottom: -20px;
+			}
 		}
 	}
 	p{
@@ -100,6 +134,35 @@ Demo URI: 		http://demo.fuviz.com/reen
 	}
 }
 
-.footer-bottom p {
-    padding-top: 20px;
+#exhibitions{
+	.light-bg{
+		padding: 30px;
+	}
+}
+
+#sponsorship{
+	.text-small{
+		margin-bottom: 20px!important;
+		line-height: 120%;
+		strong{
+			display: block;
+		}
+	}
+}
+
+.footer-bottom{
+	p{
+		font-size: @font-size-small - 3;
+		@media (min-width: @screen-sm-min) {
+ 	  	padding-top: 20px;
+ 	  	font-size: @font-size-small;
+ 	  }
+	}
+}
+#logo-ministerio{
+	margin-top: 30px;
+	@media (min-width: @screen-sm-min) {
+		margin-top: 0;
+		float: right;
+	}
 }
