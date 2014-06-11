@@ -5,40 +5,31 @@
         <h2>Mitos del Pop </h2>
         <p>10 de junio–14 de septiembre <br>
           MUSEO THYSSEN-BORNEMISZA <br>
-          <span class="text-small">Sala de exposiciones. Planta baja</span>
+          Sala de exposiciones. Planta baja
         </p>
-        <div class="row">
-          <div class="col-lg-6">
-            <ul class="list-unstyled">
-              <li>De martes a sábado de 10:00 a 22:00h</li>
-              <li>Último pase: 20:45h.</li>
-              <li>Lunes y domingo de 10:00 a 19:00h</li>
-              <li>Último pase: 17:45h.</li>
-            </ul>
-          </div>
-        </div>
+        <ul class="list-unstyled text-small">
+          <li>De martes a sábado de 10:00 a 22:00h</li>
+          <li>Último pase: 20:45h.</li>
+          <li>Lunes y domingo de 10:00 a 19:00h</li>
+          <li>Último pase: 17:45h.</li>
+        </ul>
         <p class="text-small">Recuerde que el acceso a esta exposición se realiza con pase horario. Por favor, compruebe que el pase horario asignado es el que deseaba. Tenga en cuenta que no podrá visitar esta exposición en un horario distinto. <br>Desalojo de las salas: 5 minutos antes del cierre.</p>
-        <p class="text-small">Paseo del Prado 8, 28014 Madrid Tel. 902 760 511</p>      
+        <p>Paseo del Prado 8, 28014 Madrid Tel. 902 760 511</p>      
       </div>
       <div class="col-sm-6 inner-bottom-sm">
         <h2>Richard Hamilton</h2>
         <p>27 de junio–13 de octubre <br>
           MUSEO NACIONAL CENTRO DE ARTE REINA SOFÍA <br>
-          <span class="text-small">Edificio Sabatini, Planta 3</span>
-        </p>
-        <div class="row">     
-          <div class="col-lg-6">
-            <ul class="list-unstyled">
-              <li>De lunes a sábado de 10:00 a 18:30h</li>
-              <li>Domingo de 10:00 a 19:00h</li>
-              <li>Martes cerrado.</li>
-            </ul>
-          </div>
-        </div>
+          Edificio Sabatini, Planta 3</p>
+        <ul class="list-unstyled text-small">
+          <li>De lunes a sábado de 10:00 a 18:30h</li>
+          <li>Domingo de 10:00 a 19:00h</li>
+          <li>Martes cerrado.</li>
+        </ul>
         <p class="text-small">Desalojo de las salas: 15 minutos antes del cierre<br>
           No se asigna pase horario para acceder a esta exposición. Puede visitar esta muestra en el día y la hora que desee hasta la fecha de su clausura, 13 de octubre.<br>
           Esta entrada no es válida el 12 de octubre, ya que este día la visita al Museo es gratuita para todos los públicos.</p>
-        <p class="text-small">Santa Isabel 52, 28012 Madrid Tel. 917 741 000</p>
+        <p>Santa Isabel 52, 28012 Madrid Tel. 917 741 000</p>
       </div> 
     </div>
     <div class="light-bg">
