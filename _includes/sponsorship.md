@@ -1,16 +1,16 @@
-<section>
-  <div class="container inner-xs">
+<section id="sponsorship">
+  <div class="container inner-top-xs">
     <div class="row">
       <div class="col-sm-3">
-        <p><strong>Mitos del Pop</strong> <br>cuenta con el patrocinio de:</p>
+        <p class="text-small"><strong>Mitos del Pop</strong> cuenta con el patrocinio de:</p>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 inner-bottom-xs">
         <img src="assets/images/img.logo-japan.png" alt="Japan Tobacco International" class="img-responsive">
       </div>
       <div class="col-sm-3">
-        <p><strong>Richard Hamilton</strong> <br>cuenta con el patrocinio de:</p>
+        <p class="text-small"><strong>Richard Hamilton</strong> cuenta con el patrocinio de:</p>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 inner-bottom-xs">
         <img src="assets/images/img.logo-abertis.png" alt="Fundación Abertis" class="img-responsive">
       </div>
     </div>

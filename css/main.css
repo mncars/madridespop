@@ -100,7 +100,7 @@ h6 {
 }
 h1 {
   font-size: 50px;
-  line-height: 130%;
+  line-height: 120%;
   margin-bottom: 25px;
 }
 h2 {
@@ -3288,8 +3288,15 @@ p .btn {
     height: 480px;
   }
 }
-#deepbanner h1 {
-  font-size: 60px;
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  header p {
+    font-size: 24px;
+  }
 }
 .nav-pills {
   margin-top: 10px;
@@ -3309,21 +3316,50 @@ p .btn {
 .alert {
   margin-top: 0;
 }
+@media (max-width: 479px) {
+  .col-xxs-full {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .exhibition {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .exhibition .text-small {
+    font-size: 17px;
+  }
+}
 #offer .single-block {
   margin-bottom: 5px;
+  padding-top: 50px;
   position: relative;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #offer .single-block {
+    font-size: 44px;
+  }
 }
 #offer .single-block .abono-conjunto {
   width: 113px;
   height: 111px;
   padding-top: 30px;
   position: absolute;
-  top: -60px;
-  bottom: -20px;
+  top: -55px;
+  right: 0;
   font-size: 20px;
   line-height: .9;
   background: url(../assets/images/bk.bocadillo.png) 0 0 no-repeat;
   color: #222222;
+}
+@media (min-width: 480px) {
+  #offer .single-block .abono-conjunto {
+    top: -50px;
+    bottom: -20px;
+  }
 }
 #offer p {
   color: #999999;
@@ -3339,6 +3375,31 @@ p .btn {
   margin-left: 5px;
   margin-right: 5px;
 }
+#exhibitions .light-bg {
+  padding: 30px;
+}
+#sponsorship .text-small {
+  margin-bottom: 20px!important;
+  line-height: 120%;
+}
+#sponsorship .text-small strong {
+  display: block;
+}
 .footer-bottom p {
-  padding-top: 20px;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .footer-bottom p {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+}
+#logo-ministerio {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  #logo-ministerio {
+    margin-top: 0;
+    float: right;
+  }
 }

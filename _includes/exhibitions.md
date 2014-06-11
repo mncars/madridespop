@@ -1,31 +1,31 @@
-<section>
+<section id="exhibitions">
   <div class="container inner-sm">
     <div class="row animate">
-      <div class="col-sm-6">
+      <div class="col-sm-6 inner-bottom-sm">
         <h2>Mitos del Pop </h2>
-        <p>10 de junio – 14 de septiembre <br>
+        <p>10 de junio–14 de septiembre <br>
           MUSEO THYSSEN-BORNEMISZA <br>
-          Sala de exposiciones. Planta baja</p>
-        <div class="inner-bottom-sm">
-          <div class="row">
-            <div class="col-lg-6">
-              <ul class="list-unstyled">
-                <li>De martes a sábado de 10:00 a 22:00h</li>
-                <li>Último pase: 20:45h.</li>
-                <li>Lunes y domingo de 10:00 a 19:00h</li>
-                <li>Último pase: 17:45h.</li>
-              </ul>
-            </div>
+          <span class="text-small">Sala de exposiciones. Planta baja</span>
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="list-unstyled">
+              <li>De martes a sábado de 10:00 a 22:00h</li>
+              <li>Último pase: 20:45h.</li>
+              <li>Lunes y domingo de 10:00 a 19:00h</li>
+              <li>Último pase: 17:45h.</li>
+            </ul>
           </div>
-          <p class="text-small">Recuerde que el acceso a esta exposición se realiza con pase horario. Por favor, compruebe que el pase horario asignado es el que deseaba. Tenga en cuenta que no podrá visitar esta exposición en un horario distinto. <br>Desalojo de las salas: 5 minutos antes del cierre.</p>
-          <p class="text-small">Paseo del Prado 8, 28014 Madrid Tel. 902 760 511</p>
-        </div>      
+        </div>
+        <p class="text-small">Recuerde que el acceso a esta exposición se realiza con pase horario. Por favor, compruebe que el pase horario asignado es el que deseaba. Tenga en cuenta que no podrá visitar esta exposición en un horario distinto. <br>Desalojo de las salas: 5 minutos antes del cierre.</p>
+        <p class="text-small">Paseo del Prado 8, 28014 Madrid Tel. 902 760 511</p>      
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 inner-bottom-sm">
         <h2>Richard Hamilton</h2>
-        <p>27 de junio – 13 de octubre <br>
+        <p>27 de junio–13 de octubre <br>
           MUSEO NACIONAL CENTRO DE ARTE REINA SOFÍA <br>
-          Edificio Sabatini, Planta 3</p>
+          <span class="text-small">Edificio Sabatini, Planta 3</span>
+        </p>
         <div class="row">     
           <div class="col-lg-6">
             <ul class="list-unstyled">
@@ -41,20 +41,16 @@
         <p class="text-small">Santa Isabel 52, 28012 Madrid Tel. 917 741 000</p>
       </div> 
     </div>
-    <div class="inner-xs light-bg">
+    <div class="light-bg">
       <div class="row">
-        <div class="col-sm-5 col-sm-offset-1 inner-bottom-xs">
+        <div class="col-sm-6 inner-bottom-xs">
           <p>Esta entrada no incluye el acceso a las respectivas colecciones de ambos museos ni a otras exposiciones temporales del Museo Thyssen-Bornemisza.</p>
         </div>
-        <div class="col-sm-5 inner-bottom-xs">
+        <div class="col-sm-6 inner-bottom-xs">
           <p>Conserve la entrada. Imprescindible su presentación en los accesos de ambas exposiciones.</p> 
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
-          <p><strong>Importante</strong>: La reentrada a estas exposiciones no está permitida</p>
-        </div>
-      </div>
+      <p><strong>Importante</strong>: La reentrada a estas exposiciones no está permitida</p>
     </div>
   </div>
 </section>
