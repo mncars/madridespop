@@ -4,7 +4,7 @@
       <div class="col-lg-10 center-block text-center">
         <header class="inner-top-sm inner-bottom-xs">
           <h1>Este verano #MadridEsPop</h1>
-          <p>Las exposiciones <strong>Mitos del Pop</strong> del Museo Thyssen y <strong>Richard Hamilton</strong> en el Museo Reina Sofía convierten a Madrid en <a href="#about">epicentro del Pop Art</a>.</p>
+          <p>Las exposiciones <strong>Mitos del Pop</strong> del Museo Thyssen y <strong>Richard Hamilton</strong> en el Museo Reina Sofía convierten a Madrid en <a href="#about" class="smooth_scroll">epicentro del Pop Art</a>.</p>
         </header>
       </div>
     </div>

@@ -1,4 +1,7 @@
 /*
+Bootstrap 3.1.1.
+*/
+/*
 Template: 		REEN – Made for Designers
 Description: 	Creative Portfolio Bootstrap 3 Template
 Version: 		1.0.1
@@ -3377,6 +3380,9 @@ p .btn {
 }
 #exhibitions .light-bg {
   padding: 30px;
+}
+#exhibitions .schedule {
+  margin-bottom: 25px;
 }
 #sponsorship .text-small {
   margin-bottom: 20px!important;

@@ -391,7 +391,7 @@ $(document).ready(function() {
 		triggerOnce: true
 	});*/
 	
-	var waypointClass = '[class*="animate"]';
+	var waypointClass = 'main [class*="col-"]';
 	var animationClass = 'fadeInUp';
 	var delayTime;
 	$(waypointClass).css({opacity: '0'});
