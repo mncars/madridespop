@@ -7,7 +7,7 @@
           MUSEO THYSSEN-BORNEMISZA <br>
           Sala de exposiciones. Planta baja
         </p>
-        <ul class="list-unstyled text-small">
+        <ul class="schedule list-unstyled text-small">
           <li>De martes a sábado de 10:00 a 22:00h</li>
           <li>Último pase: 20:45h.</li>
           <li>Lunes y domingo de 10:00 a 19:00h</li>
@@ -21,9 +21,11 @@
         <p>27 de junio–13 de octubre <br>
           MUSEO NACIONAL CENTRO DE ARTE REINA SOFÍA <br>
           Edificio Sabatini, Planta 3</p>
-        <ul class="list-unstyled text-small">
-          <li>De lunes a sábado de 10:00 a 18:30h</li>
+        <ul class="schedule list-unstyled text-small">
+          <li>De lunes a sábado de 10:00 a 21:00h</li>
+          <li>Último pase para la entrada #MadridEsPop: 17:30h</li>
           <li>Domingo de 10:00 a 19:00h</li>
+          <li>Último pase para la entrada #MadridEsPop: 12:00h</li>
           <li>Martes cerrado.</li>
         </ul>
         <p class="text-small">Desalojo de las salas: 15 minutos antes del cierre<br>
