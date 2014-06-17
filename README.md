@@ -18,3 +18,7 @@ Otros comandos
 ==============
 
 grunt build
+
+
+*Despliegues, la rama gh-pages en github y subtrees de git*
+===========================================================
