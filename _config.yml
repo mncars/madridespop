@@ -35,3 +35,10 @@ markdown: kramdown
 #     coderay_css: style
 
 pygments: true
+
+
+t:
+  es:
+    Lunes: "Lunes"
+  en:
+    Lunes: "Monday"
