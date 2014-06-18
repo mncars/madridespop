@@ -4,64 +4,47 @@
       <h1 class="text-center">Descubre #MadridEsPop</h1>
     </header>
     <div class="row">
-      <div id="owl-latest-works" class="owl-carousel owl-item-gap">
+      <div id="owl-gallery" class="owl-carousel owl-item-gap">
         <div class="item">
-          <a href="portfolio-post.html">
+          <a href="http://www.museothyssen.org/microsites/exposiciones/2014/mitos-del-pop/index.html">
             <figure>
-              <img src="http://placehold.it/570x390">
+              <figcaption class="text-overlay">
+                <div class="info">
+                  <h4>Microsite sobre la exposición "Mitos del Pop·</h4>
+                  <p>Museo Thyssen-Bornemisza</p>
+                </div><!-- /.info -->
+              </figcaption>
+              <img src="assets/images/img.microsite-mitos.jpg" alt="Mitos del Pop - Museo Thyssen-Bornemisza (Madrid)" alt="Mitos del Pop - Museo Thyssen-Bornemisza (Madrid)" title="Mitos del Pop - Museo Thyssen-Bornemisza (Madrid)">
             </figure>
           </a>
         </div>
         <div class="item">
-          <a href="portfolio-post.html">
+          <a href="https://www.youtube.com/watch?v=mSI6egMSAGA" alt="Vídeo divulgativo sobre exposición de Mitos del Pop" title="Vídeo divulgativo sobre exposición de "Mitos del Pop"">
             <figure>
-              <img src="http://placehold.it/570x390">
+              <figcaption class="text-overlay">
+                <div class="info">
+                  <h4>Vídeo sobre la exposición "Mitos del Pop"</h4>
+                  <p>Museo Thyssen-Bornemisza</p>
+                </div><!-- /.info -->
+              </figcaption>
+              <img src="assets/images/img.video-mitos.jpg">
             </figure>
           </a>
         </div>
         <div class="item">
-          <a href="portfolio-post.html">
+          <a href="https://storify.com/museothyssen/paseo-pop-por-la-coleccion-thyssen-con-alarcopalom-2">
             <figure>
-              <img src="http://placehold.it/570x390">
+              <figcaption class="text-overlay">
+                <div class="info">
+                  <h4>Storify sobre la exposición "Mitos del Pop"</h4>
+                  <p>Museo Thyssen-Bornemisza</p>
+                </div><!-- /.info -->
+              </figcaption>
+              <img src="assets/images/img.storify-mitos.jpg" alt="PASEO POP por la colección Thyssen" title="PASEO POP por la colección Thyssen">
             </figure>
           </a>
         </div>
-        <div class="item">
-          <a href="portfolio-post.html">
-            <figure>
-              <img src="http://placehold.it/570x390">
-            </figure>
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-post.html">
-            <figure>
-              <img src="http://placehold.it/570x390">
-            </figure>
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-post.html">
-            <figure>
-              <img src="http://placehold.it/570x390">
-            </figure>
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-post.html">
-            <figure>
-              <img src="http://placehold.it/570x390">
-            </figure>
-          </a>
-        </div>
-        <div class="item">
-          <a href="portfolio-post.html">
-            <figure>
-              <img src="http://placehold.it/570x390">
-            </figure>
-          </a>
-        </div>
-      </div>
+      </div>      
     </div>
   </div>
 </section>

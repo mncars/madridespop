@@ -2,7 +2,7 @@
   <div class="container inner-top-xs">
     <div class="row">
       <div class="col-sm-3">
-        <p class="text-small"><strong>Mitos del Pop</strong> cuenta con el patrocinio de:</p>
+        <p class="text-small"><strong>Mitos del Pop</strong> con la colaboración de:</p>
       </div>
       <div class="col-sm-3 inner-bottom-xs">
         <img src="assets/images/img.logo-japan.png" alt="Japan Tobacco International" class="img-responsive">
