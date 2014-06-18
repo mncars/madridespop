@@ -3,4 +3,5 @@ jkl
 dist
 .tmp
 .jekyll
+.idea
 app/bower_components
