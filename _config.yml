@@ -24,7 +24,7 @@ markdown: kramdown
 pygments: true
 
 
-base_url: /madridespop/
+baseurl: /madridespop/
 
 prose:
   rooturl: '_posts'
