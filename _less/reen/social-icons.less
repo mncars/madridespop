@@ -1,0 +1,74 @@
+.social {
+    padding: 0;
+    margin: 0;
+}
+.social li {
+    font-family: 'fontello-social';
+    margin-right: 4px;
+}
+.social li {
+    position: relative;
+}
+.text-center .social li {
+    margin: 0 2px;
+}
+.social li a {
+    display: table;
+	position: relative;
+}
+.social li a i {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #73879C;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.social li a i:after {
+	content: '';
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.social li a:hover i {
+	color: #FFF;
+}
+.social li a:hover i:after {
+	height: 100%;
+}
+.social a .icon-s-facebook:after {
+    background: #3B5998;
+    background: #4668B3;
+}
+.social a .icon-s-gplus:after {
+    background: #DD4B39;
+    background: #DE5745;
+}
+.social a .icon-s-twitter:after {
+    background: #00ACED;
+    background: #2FBBED;
+}
+.social a .icon-s-pinterest:after {
+    background: #CB2027;
+    background: #D94348;
+}
+.social a .icon-s-behance:after {
+    background: #1769FF;
+    background: #3079FF;
+}
+.social a .icon-s-dribbble:after {
+    background: #EA4C89;
+    background: #EB6397;
+}

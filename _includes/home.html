@@ -1,0 +1,31 @@
+{% capture home_lang %}home_{{page.lang}}{% endcapture %}
+
+{% if {{page.lang}} == 'es' %}
+
+    {% include _es/deepbanner.html %}
+
+    {% include _es/about.html %}
+
+    {% include _es/offer.html %}
+
+    {% include _es/exhibitions.html %}
+
+    {% include _es/gallery.html %}
+
+    {% include _es/sponsorship.html %}
+
+{% elsif {{page.lang}} == 'en' %}
+
+    {% include _en/deepbanner.html %}
+
+    {% include _en/about.html %}
+
+    {% include _en/offer.html %}
+
+    {% include _en/exhibitions.html %}
+
+    {% include _en/gallery.html %}
+
+    {% include _en/sponsorship.html %}
+
+{% endif %}
