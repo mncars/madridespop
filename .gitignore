@@ -5,3 +5,4 @@ dist
 .jekyll
 */.idea
 app/bower_components
+/.idea/
