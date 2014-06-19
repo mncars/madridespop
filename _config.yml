@@ -10,13 +10,11 @@ author:
   email: juanjo.lopez@biko2.com
 
 # Grunt handles images and assets.
-<<<<<<< HEAD
+
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-=======
->>>>>>> e86e5101bfe4dcde737aedb66c022f9114c41ee2
-include: ['.htaccess']
+
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
@@ -25,21 +23,3 @@ show_drafts: true
 # Markdown library
 markdown: kramdown
 pygments: true
-
-<<<<<<< HEAD
-categories: ['aviso']
-=======
-
-baseurl: /madridespop/
-
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://consorciobertiz.github.io'
-  media: 'media'
-
-t:
-  es:
-    Lunes: "Lunes"
-  en:
-    Lunes: "Monday"
->>>>>>> e86e5101bfe4dcde737aedb66c022f9114c41ee2

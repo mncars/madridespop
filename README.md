@@ -2,7 +2,6 @@ Este proyecto está basado en jekyll y se apoya en Grunt y Bower para la prepara
 
 Para preparar el entorno de desarrollo
 ======================================
-
 bundle install
 npm install
 bower install
@@ -10,15 +9,5 @@ bower install
 
 Para lanzar el entorno
 ======================
-
 grunt serve
 
-
-Otros comandos
-==============
-
-grunt build
-
-
-*Despliegues, la rama gh-pages en github y subtrees de git*
-===========================================================
