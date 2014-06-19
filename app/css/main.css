@@ -3625,11 +3625,11 @@ p .btn {
 #offer .single-block .abono-conjunto {
   width: 113px;
   height: 111px;
-  padding-top: 30px;
+  padding-top: 15px;
   position: absolute;
   top: -55px;
   right: 0;
-  font-size: 20px;
+  font-size: 18px;
   line-height: .9;
   background: url(../assets/images/bk.bocadillo.png) 0 0 no-repeat;
   color: #222222;
