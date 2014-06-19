@@ -27,7 +27,26 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://consorciobertiz.github.io'
   media: 'media'
-
+  _posts/avisos:
+    - name: "category"
+      field:
+        element: "hidden"
+        value: "aviso"
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "aviso"
+    - name: "lang"
+      field:
+        element: "select"
+        label: "Selecciona idioma"
+        placeholder: "Castellano"
+        options:
+          - name: "Castellano"
+            value: "es"
+          - name: "Ingles"
+            value: "en"
+        selected: "es"
 t:
   es:
     Lunes: "Lunes"
