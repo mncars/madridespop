@@ -1,9 +1,11 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 <header class="container">
 	<div class="row">
     <div class="col-md-10 center-block">
 			<ul class="nav nav-pills pull-right">
-				<li {% if {{page.lang}} == "es" %}class="active"{% endif %}><a href="/es">Español</a></li>
-				<li {% if {{page.lang}} == "en" %}class="active"{% endif %}><a href="/en">English</a></li>
+				<li {% if {{page.lang}} == "es" %}class="active"{% endif %}><a href="{{relative}}es">Español</a></li>
+				<li {% if {{page.lang}} == "en" %}class="active"{% endif %}><a href="{{relative}}en">English</a></li>
 			</ul>
 		</div>
 	</div>
